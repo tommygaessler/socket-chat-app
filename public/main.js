@@ -2,7 +2,7 @@ var socket = io();
 
 socket.on('listen', function(data){
   console.log(data);
-  $('#archive').append(`<div class="well well-lg"><blockquote><p>${data.message}</p><footer>From: <cite title="${data.username}">${data.username}</cite></footer></blockquote></div>`);
+  $('#archive').append(`<div class="well well-sm"><blockquote><p>${data.message}</p><footer>From: <cite title="${data.username}">${data.username}</cite></footer></blockquote></div>`);
 
   $('#archive').scrollTop(9999999);
 });
