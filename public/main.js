@@ -2,7 +2,7 @@ var socket = io();
 
 socket.on('listen', function(data){
   console.log(data);
-  $('#archive').append(`<p class="well well-lg">${data.username}: ${data.message}</p>`);
+  $('#archive').append(`<div class="well well-lg"><blockquote><p>${data.message}</p><footer>From: <cite title="${data.username}">${data.username}</cite></footer></blockquote></div>`);
 });
 
 $(document).ready(function() {

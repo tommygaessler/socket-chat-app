@@ -1,6 +1,9 @@
 .archive {
+  position: fixed;
+  top: 73.5px;
   overflow: scroll;
-  height: 50vh;
+  height: 60vh;
+  width: 90%;
 }
 
 h1 {
@@ -9,5 +12,9 @@ h1 {
 }
 
 button {
-  margin-top: 21px;
+  margin-top: 26px;
+}
+
+blockquote {
+  margin-bottom: 0;
 }
