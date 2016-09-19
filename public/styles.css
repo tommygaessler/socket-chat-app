@@ -21,6 +21,6 @@ blockquote {
 
 @media (max-width: 500px) {
   .archive {
-    height: 45vh;
+    height: 50vh;
   }
 }
